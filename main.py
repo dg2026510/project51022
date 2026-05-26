@@ -12,9 +12,9 @@ sphere(pos = vec(5.5,7,4.5),radius = 0.75,color = color.red)
 box(size = vec(5,2,2.25),pos = vec(0,-3,8),color = color.blue)
 box(size = vec(5.5,1,2.5),pos = vec(0,-2.75,8),color = color.black)
 box(size = vec(11,2,17),pos = vec(0,-7,2),color = color.black)
-box(size = vec(30,1,30),pos = vec(0,-7,5),texture = textures.wood)
+box(size = vec(35,0.25,35),pos = vec(0,-7,5),texture = textures.wood)
 #model
-text(text='press spacebar yay', align='center', color=color.green, pos = vec(0,15,0))
+tx = text(text='press spacebar yay', align='center', color=color.green, pos = vec(0,15,0))
 #text
 a = box(size = vec(2.25,2.25,2.25),pos = vec(0,3,4.25),texture = 'https://st.depositphotos.com/1006187/4695/i/450/depositphotos_46951539-stock-photo-number-from-gold.jpg')
 b = box(size = vec(2.25,2.25,2.25),pos = vec(3,3,4.25),texture = 'https://st.depositphotos.com/1006187/4695/i/450/depositphotos_46951539-stock-photo-number-from-gold.jpg')
@@ -34,5 +34,5 @@ while True :
         a.texture = t[i % 4]
         b.texture = random.choice(t)
         c.texture = random.choice(t)
-        i = i + 1
+        i = i + 1 
 #roulette
