@@ -18,7 +18,7 @@ b = box(size = vec(2.25,2.25,2.25),pos = vec(3,3,4),texture = 'https://st.deposi
 c = box(size = vec(2.25,2.25,2.25),pos = vec(-3,3,4),texture = 'https://st.depositphotos.com/1006187/4695/i/450/depositphotos_46951539-stock-photo-number-from-gold.jpg')
 
 
-t = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLGoVu6ZhlYOXpiOESjoBD4F1noL4xHNvHIg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQRlgl0jjLFDtlbRGNL6kXGXCgdzQoLITeww&s", textures.metal, "https://www.shutterstock.com/image-photo/pikachu-pokemon-yellow-pose-original-260nw-2751710475.jpg"]
+t = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLGoVu6ZhlYOXpiOESjoBD4F1noL4xHNvHIg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQRlgl0jjLFDtlbRGNL6kXGXCgdzQoLITeww&s", 'https://st.depositphotos.com/1006187/4695/i/450/depositphotos_46951539-stock-photo-number-from-gold.jpg', "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDKcc9d7c-u_qrTYlYXH4iL6a-jTPmLDGIfg&s"]
 i = 0
 while True :
     rate(100)
