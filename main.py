@@ -13,13 +13,16 @@ box(size = vec(5,2,2.25),pos = vec(0,-3,8),color = color.blue)
 box(size = vec(5.5,1,2.5),pos = vec(0,-2.75,8),color = color.black)
 box(size = vec(11,2,17),pos = vec(0,-7,2),color = color.black)
 box(size = vec(30,1,30),pos = vec(0,-7,5),texture = textures.wood)
+#model
 text(text='press spacebar yay', align='center', color=color.green, pos = vec(0,15,0))
+#text
 a = box(size = vec(2.25,2.25,2.25),pos = vec(0,3,4.25),texture = 'https://st.depositphotos.com/1006187/4695/i/450/depositphotos_46951539-stock-photo-number-from-gold.jpg')
 b = box(size = vec(2.25,2.25,2.25),pos = vec(3,3,4.25),texture = 'https://st.depositphotos.com/1006187/4695/i/450/depositphotos_46951539-stock-photo-number-from-gold.jpg')
 c = box(size = vec(2.25,2.25,2.25),pos = vec(-3,3,4.25),texture = 'https://st.depositphotos.com/1006187/4695/i/450/depositphotos_46951539-stock-photo-number-from-gold.jpg')
 box(size = vec(2.5,2.5,2.25),pos = vec(0,3,4),color = color.black)
 box(size = vec(2.5,2.5,2.25),pos = vec(3,3,4),color = color.black)
 box(size = vec(2.5,2.5,2.25),pos = vec(-3,3,4),color = color.black)
+#slot
 i = 0
 
 t = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLGoVu6ZhlYOXpiOESjoBD4F1noL4xHNvHIg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQRlgl0jjLFDtlbRGNL6kXGXCgdzQoLITeww&s", 'https://st.depositphotos.com/1006187/4695/i/450/depositphotos_46951539-stock-photo-number-from-gold.jpg', "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDKcc9d7c-u_qrTYlYXH4iL6a-jTPmLDGIfg&s"]
@@ -32,3 +35,4 @@ while True :
         b.texture = random.choice(t)
         c.texture = random.choice(t)
         i = i + 1
+#roulette
