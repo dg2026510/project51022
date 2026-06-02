@@ -14,7 +14,7 @@ box(size = vec(5.5,1,2.5),pos = vec(0,-2.75,8),color = color.black)
 box(size = vec(11,2,17),pos = vec(0,-7,2),color = color.black)
 box(size = vec(35,0.25,35),pos = vec(0,-7,5),texture = textures.wood)
 #model
-tx = text(text='press spacebar yay', align='center', color=color.green, pos = vec(0,16,0))
+tx = text(text='press spacebar = roll', align='center', color=color.green, pos = vec(0,16,0))
 #text
 a = box(size = vec(2.25,2.25,2.25),pos = vec(0,3,4.25),texture = 'https://st.depositphotos.com/1006187/4695/i/450/depositphotos_46951539-stock-photo-number-from-gold.jpg')
 b = box(size = vec(2.25,2.25,2.25),pos = vec(3,3,4.25),texture = 'https://st.depositphotos.com/1006187/4695/i/450/depositphotos_46951539-stock-photo-number-from-gold.jpg')
