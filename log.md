@@ -6,3 +6,4 @@
 
 5/29
 소리를 추가 하고 싶었지만 추가하지 못하고,코드에 오류가 있는지 확인후 6번째 줄의 cylinder의 크기와 위치를 변경하여 디자인에 있던 오류를 고쳤다
+https://www.glowscript.org/#/user/dg2026510/folder/MyPrograms/program/machine
