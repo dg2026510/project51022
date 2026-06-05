@@ -7,8 +7,11 @@ cylinder(size = vec(10,15,10),pos = vec(-5,7,0),color = color.red,group=group1)
 cylinder(size = vec(0.5,5,5),pos = vec(5,1.5,2.5),color = color.yellow)
 cylinder(size = vec(0.5,5,5),pos = vec(5.75,1.5,2.5),color = color.yellow)
 cylinder(size = vec(0.4,4.5,4.5),pos = vec(5.5,1.5,2.5),color = color.yellow)
-cylinder(size = vec(5.5,0.6,0.6),pos = vec(5.5,1.5,4.5),color = color.yellow,axis = vec(0,.5,0))
-sphere(pos = vec(5.5,7,4.5),radius = 0.75,color = color.red)
+stick = cylinder(size = vec(5.5,0.6,0.6),pos = vec(5.5,1.5,4.5),color = color.yellow,axis = vec(0,.5,0))
+ball = sphere(pos = vec(5.5,7,4.5),radius = 0.75,color = color.red)
+coolstick = compound( [stick, ball] )
+coolstick.pos = vec(5.5,5,4)
+coolstick.axis = vec(0,0,-180)
 box(size = vec(5,2,2.25),pos = vec(0,-3,8),color = color.blue)
 box(size = vec(5.5,1,2.5),pos = vec(0,-2.75,8),color = color.black)
 box(size = vec(11,2,17),pos = vec(0,-7,2),color = color.black)
@@ -30,7 +33,9 @@ t = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLGoVu6ZhlYOXpiOESjo
 while True :
     rate(100)
     k = keysdown()
-    if ' ' in k :   
+    if ' ' in k :
+        coolstick.axis = vec(-1,4,0)
+        coolstick.pos = vec(6,2,6)
         a.texture = t[i % 4]
         b.texture = random.choice(t)
         c.texture = random.choice(t)
